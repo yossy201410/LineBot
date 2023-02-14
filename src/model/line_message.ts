@@ -1,4 +1,4 @@
-export class LineMessage {
+export default class LineMessage {
     public id: string;
     public type: string;
     public text: string;

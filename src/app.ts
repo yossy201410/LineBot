@@ -1,13 +1,11 @@
 import * as line from "@line/bot-sdk";
 import * as dotenv from "dotenv";
 import express from "express";
-import 
+import LineMessageEvent from "./model/line_message_event";
+
 dotenv.config();
 
-console.log(process.env.CHANNEL_SECRET);
-
 const config = {
-    channelAccessToken: "",
     channelSecret: process.env.CHANNEL_SECRET || "",
 };
 

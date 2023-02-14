@@ -1,7 +1,7 @@
 import LineMessage from "./line_message";
 import LineMessageSource from "./line_message_source";
 
-export class LineMessageEvent {
+export default class LineMessageEvent {
     public replyToken: string;
     public type: string;
     public timestamp: number;
