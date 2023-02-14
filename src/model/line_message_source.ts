@@ -1,4 +1,4 @@
-class LineMessageSource {
+export class LineMessageSource {
     public type: string;
     public userId: string;
     constructor(type: string, userId: string) {

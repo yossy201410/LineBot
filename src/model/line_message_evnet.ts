@@ -1,4 +1,5 @@
-class LineMessageEvent {
+import LineMessageSource from "./line_message_source";
+export class LineMessageEvent {
     public replyToken: string;
     public type: string;
     public timestamp: number;
